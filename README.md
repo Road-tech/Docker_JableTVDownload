@@ -9,3 +9,7 @@
 因为原作者专注于Windows环境，软件更新后不一定能兼容Linux环境下。本人fork了[hcjohn463](https://github.com/hcjohn463)的仓库，会在测试没问题后再构建镜像。
 
 故本镜像从仓库我fork的 [JableTVDownload](https://github.com/Road-tech/JableTVDownload) 构建，很可能不会及时和上游release同步，见谅。
+
+使用教程
+
+```docker run -v /Your/download/dir:/data  -e URL="https://jable.tv/videos/ssis-XXX/" road001/jabletv_dl```
