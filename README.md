@@ -14,6 +14,10 @@
 
 ```docker run -v /Your/download/dir:/data  -e URL="https://jable.tv/videos/ssis-XXX/" road001/jabletv_dl```
 
+或者
+
+```docker run -v /Your/download/dir:/data  -e URL="https://jable.tv/videos/ssis-XXX/"  ghcr.io/road-tech/docker_jabletvdownload:main```
+
 # JableTVDownload 介绍
 
 ## 下載JableTV好幫手
